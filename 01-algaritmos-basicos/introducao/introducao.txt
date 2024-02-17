@@ -1,0 +1,42 @@
+Existem diversos tipos de linguagens.
+    - Natural
+    - Binária
+    - Programação
+    - etc...
+
+Natural: A linguagem natural é essa que nós falamos: inglês, português etc;
+Binária: A linguagem de 0 e 1, linguagem de auxência ou presença, uma linguagem que o computador ele entende, ou você tem corrente ou não tem corrente;
+Programação: C, Java, JavaScript, PHP, C#.
+
+O que caracteriza uma linguagem em geral?
+É a sua sintaxe!
+Mas o que seria essa tal sintaxe?
+sintaxe seria a forma de escrever tal linguagem, o inglês e o português são escritos totalmente diferente, se eu falar com certeza ou concerteza , System.out.println ou system.ot.prinln
+
+Resumindo é a forma de escrita corretamente
+
+A linguagem natural ela é regina pelo raciocinio lógico 
+    Precisamos do raciocinio lógico para ordenar os pensamentos
+
+Lógica de programação - é o uso correto das leis do pensamento para desenvolver algoritmos. seria usar da logica para resolver problemas
+um algoritmos é um conjunto de passos para atingir um determinado objetivo
+O seu algoritmo só vai está definido se não tiver dupla interpretação
+
+Variáveis: Na computação, são utilizadas para representar dados
+Em geral, todo algoritmo manipula dados(variável)
+
+Podemos divir os tipos de variáveis em quanto tipo primitivos:
+inteiro: 19;
+real: 19.3;
+Caractere: "Breno";
+Loógico: "A lâmpada pode estar desligada ou ligada";
+
+Uma variável pode ser constante ou variável
+
+Constante: ela não sofre e nem tem a possíblidade de sofre alteração no decorrer do algoritmo
+Variável: Pode, mas não necessariamente deve) sofrer alterações no decorrer do algoritmo
+
+Existem varios tipos de operadores, aritméticos, atribuição etc;
+aritmético: igual a da matemática
+atribuição: é quando você diz que algo é igual a otra coisa, você está atribuindo um valor para outros
+
