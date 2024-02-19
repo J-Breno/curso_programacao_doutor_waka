@@ -1,0 +1,33 @@
+o que é um vetor?
+
+é um conjunto de elementos, homogênios(iguais) e consecutivos(um depois do outro)
+
+mas um depois do outro aonde?
+
+na memória!
+
+No vetor existem dois tipos de dados, o index que começa do zero e o elemento que é o seu valor
+
+Em um vetor, cada um dos elementos é indexado por apenas um índice
+
+Vetores são unidimensionais - pois ele são indexado apenas por index
+
+Em geral, os índices de um vetor são chamados por um inteiro
+
+lembre-se se alguém falar, me dê o segundo elemento do vetor, ele não está falando do index, no caso o index seria o 1
+
+Como declarar e inicializar um vetor?
+
+A declaração de um vetor deve ser feita especificando o tipo de seus elementos, o nome do vetor e a quantidade de elementos que ele possui.
+
+Cada elemento do vetor deve ser inicializado
+
+Estrutura estática quer dizer que o tamanho dele nunca vai mudar
+
+
+Matriz também é alocação estática, e também é homogênia 
+
+
+mas matrizes são multidimensionais
+
+linhas e colunas
