@@ -1,0 +1,27 @@
+Memória e Estrutura de Repetição
+
+
+O que era o & do scanf?
+
+cada slot de merória tem o seu endereço de memória.
+
+
+o identificador é simplismente o nome da variável em questão, ex: X
+
+Tipo, ex: double
+
+E o endereço, ex: 0x24 - la na memória
+
+o tipo é importante para o SO saber quantos bits ele deve armazenar para o double, como é de 8 em 8 bits o slot, então um double que ocupa 16 bits, vai preencher o 0x24 e o 0x32, o caso os próximos 16 bits, contanto com 0x24, serão onde estára utilizado para representar x
+
+MAS O QUE É O &?
+
+a diferença é que se você for colocar o &, ele vai olhar logo no endereço da tabela
+
+quando eu colocar por exemplo somente o x, ele vai olhar no identificador, o tipo o endereço ai depois ele vai olhar o valor dele
+
+se eu colocar um printf("%lf", &x); ele vai me retornar o valor do endereço da memória e não o valor da variável	
+
+então resumindo o & comercial vai lhe retornar o endereço da memória
+
+A linguagem C é case sensitive, pois ele diferencia letra maiuscula por minusculas
