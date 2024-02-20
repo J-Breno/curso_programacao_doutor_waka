@@ -11,29 +11,27 @@ int main() {
 
 	int n;
 	int num = 1;
-	float soma = 0;
+	float soma = 1;
 	float expressao = 0;
-	float total = 0;
+	float total = 1;
 	
 	printf("Digite quantos numeros voce vai querer calcular: ");
 	scanf("%d", &n);
+	// somatoria
+	for(int i = 1; i <= n; i++) { // i de 1 até n
 
-	for(int i = n; i >= 1; i--) {
-
-		soma = i;
-
-	    for(int j = i; j > 1; j--) {
+		soma = 1;
+		// produtorio(fatorial)
+	    for(int j = 1; j <= i; j++) { // j de 1 até i
 			
 			soma *= j;
 
 		}
 		
-		expressao = 1 / soma;
-		total += expressao;
+		total += 1 / soma;
 
 	}
 
-	total += num;
 	
 	printf("o total foi: %f", total);
 

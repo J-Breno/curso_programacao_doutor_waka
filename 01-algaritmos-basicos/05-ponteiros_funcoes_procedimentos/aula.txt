@@ -1,0 +1,35 @@
+Relembrando - vetores e matrizes são estruturas de dados;
+
+---------- Procedimentos, Funções, Ponteiros -----------
+
+ponteiros
+1 bit é o menor espaço na memória, um bit pode armazenar apenas dois valores, ou 0 ou 1;
+um conjunto de 8 bits são 1 byte
+
+lembre-se que o & é falando do endereço da memória
+y = 20;
+quando você coloca que o valor de x = &y; o x vai receber o endereço de y
+se voce falar que esse x seja um ponteiro, se você fizer assim *x += 10,vai ser o 20 que vem no y + 10;, o * vai apontar para o endereço de memória que está no x;
+
+Procedimentos são subprogramas - é como se fosse um programa dentro de um programa
+
+    - Possui um nome indentificador - tipo uma variável, o seu nome
+    - Possui um conjunto de instruções a serem executadas - 
+    - Possui variáveis próprias - ele não vai compartilhar com outras coisas, é só dele;
+    - É possivel enviar informações na invocação de um procedimento. - você consegue passar parâmetros para ele
+    - Ao finalizar a execução de todas as instruções, o programa volta do ponto onde o procedimento foi invocado
+    - o stdio.h é um procedimento, printf
+
+A diferença de procedimentos e funções é que quando termina a execução a função volta com um valor já os procedimentos não
+Exemplo: o printf é um procedimento,pois ele não é substituido por mais nada, já uma função ela é substituida, exe: sqrt(9), vai ser substituido por 3, vai retornar 3
+
+Vantagens de usar procedimentos e funções
+
+    - Dividir os programas em blocos (subprogramas)
+    - Evitar repetições de código.
+    - Evitar programas muito grandes.
+    - Facilitar manutenção dos programas
+    - Facilitar leitura
+    - Resuabilidade
+    - Modularidade
+    - Facilitar teste
