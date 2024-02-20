@@ -1,0 +1,3 @@
+Procedimentos e funçõs são subprogramas
+
+função e procedimentos são praticamente a esma coisa, só muda que a função retornar um valor
