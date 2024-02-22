@@ -1,3 +1,12 @@
 Procedimentos e funçõs são subprogramas
 
 função e procedimentos são praticamente a esma coisa, só muda que a função retornar um valor
+
+Depois faça exercicios para recursão e ponteiros
+
+Recursão é uma tecnica de programação
+
+é um procedimento que chama ele mesmo
+
+Estrutura de dados é uma forma de organizar os dados no comptudador;
+
