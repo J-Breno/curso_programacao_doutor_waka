@@ -8,7 +8,7 @@ void imprimir(int x) {
 	if(x == 0) {
 		printf("%d ", x);
 	} else {
-		imprimir(x - 1);
+		imprimir(x - 1); // ele esta guardando o valor da variável dentro de uma pilha, ai depois ele volta de traz para frente quando termina a recursividade, no caso termina quando x é 0
 		printf("%d ", x);
 	}
 	
