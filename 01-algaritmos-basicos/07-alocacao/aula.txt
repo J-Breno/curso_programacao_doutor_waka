@@ -1,0 +1,16 @@
+Todo programa de computado vai tratar dados
+
+
+Existem dois tipos de alocação de memória: estática e dinâmica
+
+a estática acontece na pré-execução do programa
+
+estática porque depende do carregamento do cabeçalho do seu programa
+e você não consegue modificar o tamanho dela, ela é estática pois não muda
+
+Alocação dinâmica
+
+Para fazer alocação dinâmica em C utilizamos a função malloc da stdlib
+
+
+
