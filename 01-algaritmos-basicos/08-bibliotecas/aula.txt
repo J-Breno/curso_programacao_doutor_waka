@@ -1,0 +1,3 @@
+o #ifndef é que se não tiver tal coisa, faça
+o #define é que vai definir essa tal coisa
+o #endif é que vai fechar o código

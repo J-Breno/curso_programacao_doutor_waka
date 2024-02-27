@@ -1,0 +1,78 @@
+Java não é puramente orientado a objeto, você também pode programar de forma imperativa e vai funcionar
+
+são linguagens orientadas a objeto, mas não são puramente a orientadas a objeto
+
+Em java é possivel trabalhar com strings como se fosse um tipo primitivo;
+
+mas ele não é, ele na verdade é um objeto
+
+
+é possivel concatenar strings
+
+Um programa java chegue a seguinte estrutura
+
+1. vamos escrever o package
+
+// Pacote ao qual a class pertence, nada mais que uma pasta, para você dividir o seu código
+
+package pacote;
+
+2. importação
+// semelhando ao #include do C
+import <classe_a_ser_importada>
+
+3 .executar a função main
+// ela sempre está dentro de uma classe
+
+public class NomeDaClass {
+    public static void main(String[] args) {
+	
+
+    }
+}
+
+o workspace é onde a minha ide vai salvar 
+
+Classe é um tipo estruturado que pode conter membros
+	atributos(dados/campos)
+	metodos (função/ operações
+
+Triangle vai ser um tipo
+
+se eu fazer Triangle x = new Triangle();
+
+o x vai ser apenas uma referência para a clas que está lá no heap
+Classe é definição de um tipo
+
+Reaproveitamos código, E delegamos responsabilidades
+Os obejtos são instâncias da class
+
+Toda classe em java é uma subclasse da class object
+
+Object possui os seguintes métodos:
+
+getClass - Retorna o tipo do método 
+equals - Compara se o objeto é igual a outro
+HashCode - Retorna um código hash do objeto
+toString = converte o objeto para string
+
+As classes possuem membros que podem ser atributos e métodos
+
+Membros estáticos são membros de classe, em oposição a membro de instância
+
+Eles não precisam de objetos para serem chamados	
+
+Usaremos muito em classes utilitarias , o Math é o nome da class , no Math.sqrt
+
+declaração de constantes também é classe de membro estáticos
+
+a palavra final diz que ele é uma constante
+
+Dentro da mesma classe você não pode acessar um método estático, se tiver outros métodos não estáticos
+
+statico é quando não precisa de objeto para serem chamados, pois eles não irão mudar o seu resultado depenednedo do objeto.
+
+Exemplo se eu tiver uma calculadora 1 e fazer a soma de 5 + 5
+E se eu tiver uma calculadora 2 e fizer a soma de 5 + 5
+eles não irão mudar. 
+Então eu não preciso instanciar um objeto, e posso chamara o método ou variável utilizando a própria classe

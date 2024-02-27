@@ -1,0 +1,5 @@
+Na linguagem C uma String é apenas um vetor especial de caracteres
+
+Nesse caso, o último elemento do vetor termina com o caractere especial "\0" 
+
+
