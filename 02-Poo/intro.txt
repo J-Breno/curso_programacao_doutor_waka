@@ -108,6 +108,6 @@ O private o membro só pode ser acessado no mesmo pacote, bem como em subclasses
 se não colocar nada o membro só podera acessado, dentro do mesmo pacote
 
 protected o membro só pode ser acessado no mesmo pacote, bem como em subclasses de pacotes diferentes
-	
+		
 
 
