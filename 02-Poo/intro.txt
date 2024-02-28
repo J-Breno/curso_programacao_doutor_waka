@@ -76,3 +76,38 @@ Exemplo se eu tiver uma calculadora 1 e fazer a soma de 5 + 5
 E se eu tiver uma calculadora 2 e fizer a soma de 5 + 5
 eles não irão mudar. 
 Então eu não preciso instanciar um objeto, e posso chamara o método ou variável utilizando a própria classe
+
+----- Construtor -----
+é uam operação especial da classe, que executa no momento da instanciação do objeto, vai ser executado quando for utitlizado o coamdno newx
+
+Usos comuns:
+	para permitir ou obrigar o objeto receba dados / dependências no momento de sua instânciação 
+	iniciar valores dos atributos	
+
+é posivel especificar mais de um construtor na mesma classe (sobrecarga)
+this pe referência para o proprio objeto
+
+Sobrecarga é um recurso que uma classe possui de oferecer mais de uma operação com o mesmo nome, poém com diferentes lista de parâmetros, você disponibilizar diferentes versões de um programa com oseus paramentos
+
+Encapsulamento é um principo que consiste em esconder detalhes de implementação de uma classe, expondo apenas operações seguras e que mantenham os objetos em um estado consistente.
+
+O objeto deve sempre estar em um estado consistente e a própria classe deve garantir isso.
+
+É tipo um aparelho de som, ele tem toda a sua capa exterior para esconder os seus fios e circuitos, para não ter perigo do usuário ter poder de danificar o aparelho. O usuário só vai poder fazer o que está no exterior. O interno ele não vai ter acesso
+
+Vou esconder detalhes de implementação na minha classe e vou expor apenas operações seguras e que mantenham os objetos em um estado consistente
+
+Um objeto não deve expor nenhum atributo
+
+Os atributos devem ser acessado por atributos get e set
+
+---- modificadores de acesso
+
+O private o membro só pode ser acessado no mesmo pacote, bem como em subclasses de pacotes diferentes
+
+se não colocar nada o membro só podera acessado, dentro do mesmo pacote
+
+protected o membro só pode ser acessado no mesmo pacote, bem como em subclasses de pacotes diferentes
+	
+
+
