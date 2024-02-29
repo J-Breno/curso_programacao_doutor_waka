@@ -6,10 +6,10 @@ public class Transicao {
 	private String nameTitularConta;
 	private double deposito;
 	
-	public Transicao(int numeroConta, String nameTitularConta, double deposito) {
+	public Transicao(int numeroConta, String nameTitularConta, double initalDeposit) {
 		this.numeroConta = numeroConta;
 		this.nameTitularConta = nameTitularConta;
-		this.deposito = deposito;
+		deposit(initalDeposit);
 	}
 	
 	public Transicao(int numeroConta, String nameTitularConta) {
@@ -29,7 +29,7 @@ public class Transicao {
 		return this.nameTitularConta;
 	}
 	
-	public void setDeposito(double deposito) {
+	public void deposit(double deposito) {
 		this.deposito += deposito;
 	}
 	

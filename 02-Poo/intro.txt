@@ -109,5 +109,90 @@ se não colocar nada o membro só podera acessado, dentro do mesmo pacote
 
 protected o membro só pode ser acessado no mesmo pacote, bem como em subclasses de pacotes diferentes
 		
+----- tipo referencia vs tipo valor ---------
 
+classes são tipo referência em java
+
+Variáveis cujo tipo são classes não devem ser entedidas como caixas, mas sim "Tentáculos" (ponteiro) para caixas	
+
+Product p1, p2;
+p1 = new Product("TV", 900.0, 0);
+
+p1, p2 estão armazenadas em um local na memória chamada stack e dentro das variáveis está o endereço de memória do objeto que foi criado dentro do heap, e esse endereço aponto para esse objeto do heap
+
+O heap é onde são alocados os objetos em tempo de execução
+
+se eu fizer p2 = p1;
+
+tanto o p2 e o p1 vão apontar para o objeto
+
+em java tipos primitivos são tipo valor, eles são caixa e não ponteiros
+
+
+Objetos não utilizados são deslocados em um momento próximo pelo gargabe collactor
+
+---- Garbage collector
+
+é o processo que automatiza o gerenciamento de memória de um programa em execução
+
+O garbage collector monitora os objetos alocados dinamicamente pelo programa (no heap), deslocando aqueles que não estão mais sendo utilizados.
+
+o Garbage collaction monitora os objetos alocados dinamicamente pelo programa (no heap), deslocando aqueles que não estão mais sendo utilizados.
+
+------- Boxing, unboxing, wrapper classes
+
+
+Boxing é o processo de conversão de um objeto tipo valor para um objeto tipo referencia
+
+Os wrapper classes são classes equivalente aos tipos primitivos
+
+int = Integer, char = Character, esse é o que mais muda, os outros só ficam com letra maiscula no começo
+
+é melhor utilizar o wrapper classe do que o tipo primitivo, pois o wrapper class aceita o valor nulo
+
+for each em java :
+
+for(int elemento : lista) {
+     System.out.println(elemento);
+}
+
+--- Listas 
+
+Lista é uma estrutura de dados
+ordenada, homogênia, e os seus elementos são alocados sob demanda, diferente do vetor que você tem que informar quantos elementos vai ter
+
+List em java é um tipo Interface
+
+se um tipo é interface eu não posso instanciar esse tipo
+
+Classes que implementam: ArrayList, LikedList
+
+------------- Enumeração --------------------
+
+
+Enumeração é um tipo especial que serve para especificar de forma literal um conjunto de constantes relacionadas
+
+Conjunto de valores pré-definidos, ou seja, 
+
+enum
+
+vantagem - melhor semântica e legivel	
+
+enumeradores são considerados tipo uma constante no java, mas ele são muito mais do que isso
+
+vamos ver a diferença de enum para constantes
+
+Usamos tipos de enumeração sempre que precisamos representas um conjunto fixo de constantes, valores que são totalmente conhecidos na hora da compilação do programa;
+
+Exemplos comuns: variáveis para armazernar meses do ano, dias da semana, pontos cardeais, estações do ano, planetas do sistemas solar, etc;
+
+Podemos pensar nas classes como categorias
+
+views - tela do sistema
+controllers - é o que faz entre a tela e o sistema
+Entities - produtos, clientes, pedidos
+Services - 
+Repositories - acessar os dados de um banco de dados
+
+Composição é um tipo de associação que permite que um objeto contenha outro
 

@@ -34,7 +34,7 @@ public class Program {
 		
 		System.out.print("Enter a deposity value: ");
 		deposito = sc.nextDouble();
-		transicao.setDeposito(deposito);
+		transicao.deposit(deposito);
 		System.out.println("Update account data: ");
 		System.out.println(transicao);
 		
@@ -44,5 +44,7 @@ public class Program {
 		
 		System.out.println("Update account data: ");
 		System.out.println(transicao);
+		
+		sc.close();
 	}
 }
