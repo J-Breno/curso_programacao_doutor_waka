@@ -11,7 +11,6 @@ public class Client {
 	}
 
 	public Client(String name, String email, Date birthDate) {
-		super();
 		this.name = name;
 		this.email = email;
 		this.birthDate = birthDate;
