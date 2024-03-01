@@ -186,6 +186,8 @@ Usamos tipos de enumeração sempre que precisamos representas um conjunto fixo 
 
 Exemplos comuns: variáveis para armazernar meses do ano, dias da semana, pontos cardeais, estações do ano, planetas do sistemas solar, etc;
 
+------------ composição
+
 Podemos pensar nas classes como categorias
 
 views - tela do sistema
@@ -196,3 +198,11 @@ Repositories - acessar os dados de um banco de dados
 
 Composição é um tipo de associação que permite que um objeto contenha outro
 
+
+Relação tem-um ou tem-varios
+
+Vantagens
+- Organização
+- Coesão
+- Flexibilidade
+- Reuso

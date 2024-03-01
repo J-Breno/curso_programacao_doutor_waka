@@ -16,6 +16,17 @@ public class Worker {
 	
 	private List<HourContract> contracts = new ArrayList<>();
 	
+	public Worker() {	
+	}
+
+	public Worker(String name, WorkerLevel level, Double baseSalary, Departament departament) {
+		this.name = name;
+		this.level = level;
+		this.baseSalary = baseSalary;
+		this.departament = departament;
+	}
+	
+	
 	public String getName() {
 		return name;
 	}
@@ -52,16 +63,6 @@ public class Worker {
 		return contracts;
 	}
 
-	public Worker() {
-		
-	}
-
-	public Worker(String name, WorkerLevel level, Double baseSalary, Departament departament) {
-		this.name = name;
-		this.level = level;
-		this.baseSalary = baseSalary;
-		this.departament = departament;
-	}
 	
 	public void addContract(HourContract contract) {
 		contracts.add(contract);
@@ -79,11 +80,10 @@ public class Worker {
 			int c_year = cal.get(Calendar.YEAR);
 			int c_month = 1 + cal.get(Calendar.MONTH);
 			if(c_year == year && c_month == month ) {
-				sum = c.totalValue();
+				sum += c.totalValue();
 			}
 		}
 		return sum;
 	}
-	
 	
 }
