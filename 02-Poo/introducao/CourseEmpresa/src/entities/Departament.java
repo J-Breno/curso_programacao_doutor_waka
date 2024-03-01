@@ -20,5 +20,4 @@ public class Departament {
 		return this.name;
 	}
 	
-	
 }
