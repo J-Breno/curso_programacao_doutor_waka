@@ -1,5 +1,7 @@
 package entities;
 
-public class Client {
+import java.util.Date;
 
+public class Client {
+	
 }
