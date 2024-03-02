@@ -206,3 +206,22 @@ Vantagens
 - Coesão
 - Flexibilidade
 - Reuso
+
+----------- Herança -------------------
+
+é um tipo de associação que permite que uma classe herde todos dados e comportamentos de outra
+
+Vantagens
+- Reuso
+- Polimorfismo
+
+se uma classe tem tudo que uma outra tem, mais/ou não  outras coisas, ai você pode usar herança para extender para ela
+
+o modificador de acesso protected ele fica acessivel também em pacotes diferente porem tem que ser uma subclasse, ou seja, ele tem que pegar a herança de uma superclasse
+
+Já o private diz que o membro só pode ser acessado pela própria classe account
+
+A herança é uma relação é um
+
+Herança é uma associação entre classes e não entre objetos
+
