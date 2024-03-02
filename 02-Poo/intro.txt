@@ -225,3 +225,42 @@ A herança é uma relação é um
 
 Herança é uma associação entre classes e não entre objetos
 
+----- Upcasting
+é como se eu tivesse um objeto do tipo businessaccount e quisesse atribuir a uma variável do tipo account
+Casting da subclasse para a superclasse
+Uso comum: Polimorfismo
+
+----- DownCasting 
+é o ao contrário
+
+métodos que recebem parâmetros genéricos(Ex: Equals)
+
+---------- Sobreposição ou sobrescrita
+
+é a implementação de um método de uma superclasse na subclasse
+
+é fortemente recomendável usar anotação @Override em um método sobrescrito
+
+- Facilita a leitura e compreensão do código
+- Avisamos ao compilador (boa prática)
+
+a palavra chave final utilizada em classe evita que a classe seja herdada
+public final class SavingsAccount
+
+no método evita que o método sob seja sobreposto
+
+Se você já tem um método que já é sobreposto normalmente você vai colocar um final para ele não ser sobreposto, porém depende da regra do negócio
+
+
+----- Os pilares da POO
+
+- Encapsulamento
+
+- Herança
+
+- Polimorfismo = Em poo, polimorfismo é recurso que permite que variáveis de um mesmo tipo mais genérico possam apontar para objetos de tipos específicos diferentes, tendo assim comportamento diferentes conforme cada tipo específico;
+
+Polimorfismo - poli = muitos; morfismo = formas
+
+então vamos ter variáveis do mesmo tipos se comportando de varias formas diferentes
+
