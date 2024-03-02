@@ -2,6 +2,8 @@ package application;
 
 import entities.Account;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 import java.util.Locale;
 import entities.BusinessAccount;
@@ -11,44 +13,25 @@ public class Program {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
+        List<Account> list = new ArrayList<>();
 
-        Account acc1 = new Account(1001, "Alex", 1000.0);
-        acc1.withdraw(200.0);
-        System.out.println(acc1.getBalance());
+        list.add(new SavingAccount(1001, "Alex", 500.00, 0.01));
+        list.add(new BusinessAccount(1002, "Maria", 1000.00, 400.0));
+        list.add(new SavingAccount(1003, "Bob", 300.00, 0.01));
+        list.add(new BusinessAccount(1004, "Ana", 500.0, 500.0));
 
-        Account acc2 = new SavingAccount(1002, "Maria", 1000.0, 0.01);
-        acc2.withdraw(200.0);
-        System.out.println(acc2.getBalance());
-
-        Account acc3 = new BusinessAccount(1003, "Bob", 1000.0, 500.0);
-        acc3.withdraw(200.0);
-        System.out.println(acc3.getBalance());
-
-        /*Account acc = new Account(1001, "Alex", 0.0);
-        BusinessAccount bacc = new BusinessAccount(1002, "Maria", 0.0, 500.0);
-
-
-        // UPCASTING
-
-        Account acc1 = bacc;
-        Account acc2 = new BusinessAccount(1003, "Bob", 0.0, 200.0);
-        Account acc3 = new SavingAccount(1004, "Ana", 0.0, 0.1);
-
-        // DOWNCASTING
-
-        BusinessAccount acc4 = (BusinessAccount)acc2;
-        acc4.loan(100.0);
-
-        if(acc3 instanceof BusinessAccount) {
-            BusinessAccount acc5 = (BusinessAccount) acc3;
-            acc5.loan(200.0);
-            System.out.println("Loan!");
+        double soma = 0.0;
+        for(Account acc : list) {
+            soma += acc.getBalance();
         }
 
-        if(acc3 instanceof SavingAccount) {
-            SavingAccount acc5 = (SavingAccount) acc3;
-            acc5.updateBalance();
-            System.out.println("Update!");
-        }*/
+        System.out.printf("Total balance: %.2f%n", soma);
+
+        for(Account acc : list) {
+            acc.deposit(10.0);
+        }
+        for(Account acc: list){
+            System.out.printf("Update balance for account %d: %.2f%n", acc.getNumber(), acc.getBalance());
+        }
     }
 }

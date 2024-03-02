@@ -264,3 +264,16 @@ Polimorfismo - poli = muitos; morfismo = formas
 
 então vamos ter variáveis do mesmo tipos se comportando de varias formas diferentes
 
+----------- Classes abstratas
+
+São classes que não pode ser instanciadas
+é uma forma de garantir herança total, ou seja, somente classes não abstratas pode ser instanciadas, mas nunca a superclasse abstrata
+
+
+na uml para saber que uma classe é abstrata o nome dela é abstrata
+
+----------- Métodos abstratos
+
+se uma classe possui apenas um método abstrato ela é abstrata
+
+Quando eu for querer fazer uma list e quero fazer também um polimorfismo, eu devo colocar o tipo da lista como o tipo da superclasse
