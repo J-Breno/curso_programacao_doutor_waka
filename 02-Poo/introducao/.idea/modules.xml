@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Bank/Bank.iml" filepath="$PROJECT_DIR$/Bank/Bank.iml" />
       <module fileurl="file://$PROJECT_DIR$/EmpresaPolimorfismo/EmpresaPolimorfismo.iml" filepath="$PROJECT_DIR$/EmpresaPolimorfismo/EmpresaPolimorfismo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Funcionarios/Funcionarios.iml" filepath="$PROJECT_DIR$/Funcionarios/Funcionarios.iml" />
       <module fileurl="file://$PROJECT_DIR$/Produtos/Produtos.iml" filepath="$PROJECT_DIR$/Produtos/Produtos.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/introducao.iml" filepath="$PROJECT_DIR$/.idea/introducao.iml" />
     </modules>
