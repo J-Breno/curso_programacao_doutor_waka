@@ -277,3 +277,23 @@ na uml para saber que uma classe é abstrata o nome dela é abstrata
 se uma classe possui apenas um método abstrato ela é abstrata
 
 Quando eu for querer fazer uma list e quero fazer também um polimorfismo, eu devo colocar o tipo da lista como o tipo da superclasse
+
+---- Tratamento de exceções
+
+
+
+uma exceção é qualquer condição de erro ou comportamento inesperado encontrado por um programa em execução
+
+Em java uma exceção é um objeto herdado da classe
+java.lang.Exception - o compilador obriga a tratar ou propragar
+java.lang.RuntimeException - o compilador não obriga a tratar ou propragar
+
+O modelo de tratamento de exceções permite que erros sejam tratados de forma consistente e flexível, usando boas práticas
+
+try - vai executar normalmente
+o catch vai pegar a exceção
+finally - 
+							
+
+model - sistema em si- representa so dados do sistema e as transformações desses dados conforme as regras de negócio, pode ser entities(produto, cliente, pedido), enums, exception, services ...
+
